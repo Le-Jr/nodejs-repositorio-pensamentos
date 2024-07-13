@@ -2,7 +2,9 @@ const { DataTypes } = require('sequelize')
 
 const db = require('../db/conn')
 
-const Tought = db.define('Tought', {
+const User = require('./User')
+
+const Thought = db.define('Thought', {
     title: {
         type: DataTypes.STRING,
         allowNull: false,
@@ -10,4 +12,7 @@ const Tought = db.define('Tought', {
     }
 })
 
-module.exports = Tought
+Thought.belongsTo(User)
+User.hasMany(Thought)
+
+module.exports = Thought

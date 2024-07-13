@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap'); 
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    background-color: #323232;
+    color: white;
+}
+
+.navbar{
+    padding: 1.2em 1.4em;
+    margin-bottom: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(190, 72, 4);
+}
+
+#logo{
+    height: 40px;
+    transition: ease-in-out;
+    transition-duration: 400ms;
+}
+
+#logo:hover{
+    filter: drop-shadow(1px 1px 10px rgba(251, 255, 0));
+    height: 50px;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    gap: 1em;
+}
+
+.navbar ul a{
+    text-decoration: none;
+    transition: ease-in-out;
+    transition-duration: 200ms;
+}
+
+.navbar ul a:hover{
+    color: rgb(190, 72, 4);
+}
+
+.container{
+    min-height: 60vh;
+    padding: 2em;
+}
+
+footer{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer span{
+    font-weight: bold;
+    color: rgb(190, 72, 4);
+}
+
+.authContainer{
+    max-width: 450px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.authContainer h2{
+    margin-bottom: 1em;
+    color: white;
+    border-left:4px solid rgb(190, 72, 4);
+    padding: .3em;
+    width: 100px;
+}
+
+.authContainer a{
+    color: rgb(190, 72, 4);
+
+}
+
+.formControl{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+}
+
+.formControl label{
+    font-weight: bold;
+    margin-bottom: .5em;
+}
+
+.formControl input, .formControl textarea{
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid rgb(190, 72, 4);
+}
+
+form input[type='submit'],.btn{
+    background-color: transparent;
+    color: rgb(190, 72, 4);
+    border: 2px solid rgb(190, 72, 4);
+    padding: .5em 1.2em;
+    margin-bottom: 1em;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition-duration: 500ms;
+}
+form input[type='submit']:hover,.btn:hover{
+    background-color: rgb(190, 72, 4);
+    color: white;
+    
+}
+
+.message{
+    padding: 1em;
+    color: rgb(1, 1, 87);
+    background-color: rgb(164, 229, 255);
+    border: 1px solid  #b8baff;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0 auto 2em;
+    max-width: 60%;
+
+}
