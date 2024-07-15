@@ -130,3 +130,185 @@ form input[type='submit']:hover,.btn:hover{
     max-width: 60%;
 
 }
+
+.thoughtFormContainer{
+    color: rgb(190, 72, 4);
+
+}
+
+.thoughtFormContainer:hover{
+    color: white;
+}
+
+.thoughtFormContainer h1{
+    margin-bottom: 1em;
+    color: white;
+    border-left:4px solid rgb(190, 72, 4);
+    padding: .3em;
+    margin-top: .5em;
+
+}
+
+.thoughtFormContainer form{
+    max-width: 30%;
+    margin-top: 1.5em;
+}
+
+.thoughtFormContainer a{
+    text-decoration: none;
+    transition: ease-in-out;
+    transition-duration: 300ms;
+}
+.thoughtFormContainer a:hover{
+    color: rgb(190, 72, 4);
+
+}
+
+.titleContainer{
+    display: flex;
+    justify-self: unset;
+    justify-content: space-between;
+    margin-bottom: 1.5em;
+}
+
+.titleContainer h2{
+    border-left: 4px solid rgb(190, 72, 4);
+    padding: 10px;
+}
+
+  
+
+.dashboard h3{
+    margin-bottom: 1em;
+
+}
+
+.dashboard ul{
+    list-style: none;
+}
+
+.dashboard li{
+    padding: 12px;
+    border-bottom: 1px solid rgb(190, 72, 4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dashboard .label{
+    font-weight: bold;
+    color: rgb(190, 72, 4);
+    margin-right: 2em;
+}
+
+.dashboard .actions{
+    display: flex;
+
+}
+
+.dashboard .actions .btn{
+    border-color: white;
+    margin: 0 .5em;
+    color: white;
+
+}
+
+/* HOME */
+.homeHeader {
+    display: flex;
+    flex-direction: column;
+    max-width: 60%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .homeHeader h1 {
+    margin-bottom: 1em;
+  }
+  
+  .homeHeader span {
+    color: rgb(190, 72, 4);
+  }
+  
+  .homeHeader p {
+    margin-bottom: 1.2em;
+  }
+  
+  .homeHeader form {
+    margin-bottom: 1em;
+  }
+  
+  .homeHeader input {
+    border: none;
+    border-bottom: 1px solid white;
+    padding: 0.5em;
+    margin-right: 1em;
+  }
+  
+  .homeHeader input[type='text'] {
+    width: 60%;
+  }
+  
+  .homeHeader input::placeholder {
+    color: white;
+  }
+  
+  .orderContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+    margin: 0 auto 1em;
+  }
+  
+  .orderContainer span {
+    font-weight: bold;
+    color: white;
+  }
+  
+  .orderContainer form {
+    margin: 0;
+  }
+  
+  .orderContainer button {
+    margin-bottom: 0;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .orderContainer button:hover,
+  .orderContainer a:hover {
+    color: rgb(190, 72, 4);
+  }
+  
+  .orderContainer span,
+  .orderContainer button,
+  .orderContainer a {
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  .orderContainer i {
+    color: white;
+  }
+  .orderContainer i:hover{
+    color: rgb(190, 72, 4);
+  }
+  
+  .thoughtsContainer figure {
+    border-bottom: 1px solid #323232;
+    padding: 0.5em;
+    max-width: 50%;
+    margin: 0 auto 1em;
+  }
+  
+  .thoughtsContainer blockquote {
+    font-style: italic;
+    font-size: 2em;
+    margin-bottom: 0.4em;
+  }
+  
+  .thoughtsContainer span {
+    color: rgb(190, 72, 4);
+  }
